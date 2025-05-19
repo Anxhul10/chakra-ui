@@ -31,7 +31,7 @@ const baseStyle = defineStyle({
     justifyContent: "center",
     alignItems: "center",
     width: "100%",
-    height: "100%",
+    height: "90%",
   },
   "& > img, & > video": {
     objectFit: "cover",
