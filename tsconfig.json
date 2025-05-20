@@ -1,6 +1,6 @@
 {
   "extends": ["./tsconfig.build.json"],
-  "include": ["vitest.setup.ts", "packages", "apps/compositions", "**/*.mjs"],
+  "include": ["vitest.setup.ts", "packages", "apps/compositions", "**/*.mjs","lostpixel.config.ts"],
   "compilerOptions": {
     "paths": {
       "compositions/*": ["./apps/compositions/src/*"]

@@ -121,5 +121,8 @@
   "packageManager": "pnpm@10.10.0",
   "engines": {
     "node": ">=20.x"
+  },
+  "devDependencies": {
+    "lost-pixel": "^3.22.0"
   }
 }
