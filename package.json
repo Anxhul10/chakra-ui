@@ -9,6 +9,7 @@
   "author": "Segun Adebayo <sage@adebayosegun.com>",
   "license": "MIT",
   "scripts": {
+      "build:lostpixel-config": "tsup lostpixel.config.ts --format=cjs --dts false --out-dir .",
     "build-storybook": "storybook build",
     "lost-pixel":"lost-pixel",
     "prepare": "husky install",
