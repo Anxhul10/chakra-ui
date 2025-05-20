@@ -13,8 +13,8 @@ jobs:
         with:
           version: 10
 
-      - name: Install dependencies
-        run: pnpm install
+      # - name: Install dependencies
+      #   run: pnpm install
 
       - name: Build ladle
         run: pnpm run build
