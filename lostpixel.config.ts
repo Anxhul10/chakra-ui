@@ -5,4 +5,5 @@ export const config: CustomProjectConfig = {
     storybookUrl: "examples/storybook-build/storybook-static",
   },
   generateOnly: true,
+  failOnDifference: true,
 }

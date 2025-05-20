@@ -9,6 +9,7 @@
   "author": "Segun Adebayo <sage@adebayosegun.com>",
   "license": "MIT",
   "scripts": {
+    "lost-pixel":"lost-pixel",
     "prepare": "husky install",
     "local:sync": "tsx scripts/symlink.ts",
     "local:revert": "tsx scripts/symlink.ts --revert",
