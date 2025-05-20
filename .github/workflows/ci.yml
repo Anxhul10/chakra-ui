@@ -1,0 +1,26 @@
+name: lost-pixel
+on: [push]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          version: 10
+
+      - name: Install dependencies
+        run: pnpm install
+
+      - name: Build ladle
+        run: pnpm run build
+
+      - name: Serve ladle
+        run: pnpm run serve &
+
+      - name: Lost Pixel
+        uses: lost-pixel/lost-pixel@v3.4.0
