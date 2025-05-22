@@ -21,7 +21,10 @@ jobs:
 
       - name: Build Lost Pixel config
         run: pnpm build:lostpixel-config
-
+      
+      - name: show the directory
+        run: ls
+        
       - name: Lost Pixel
         uses: lost-pixel/lost-pixel@v3.4.0
         with:
