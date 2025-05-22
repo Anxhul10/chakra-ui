@@ -3,10 +3,11 @@ export default {
     storybookUrl: "./storybook-static",
   },
   // OSS mode
-  imagePathBaseline: "./lost-pixel/baseline-images",
-  imagePathCurrent: "./lost-pixel/current-images",
-  imagePathDifference: "./lost-pixel/difference-images",
+  // imagePathBaseline: "./lost-pixel/baseline-images",
+  // imagePathCurrent: "./lost-pixel/current-images",
+  // imagePathDifference: "./lost-pixel/difference-images",
   generateOnly: true,
+  browser: "firefox",
 
   // Lost Pixel Platform (to use in Platform mode, comment out the OSS mode and uncomment this part )
   // lostPixelProjectId: "xxxx",
