@@ -30,7 +30,7 @@ const baseStyle = defineStyle({
     display: "flex",
     justifyContent: "center",
     alignItems: "center",
-    width: "100%",
+    width: "10%",
     height: "100%",
   },
   "& > img, & > video": {
