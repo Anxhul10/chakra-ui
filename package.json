@@ -9,8 +9,7 @@
   "author": "Segun Adebayo <sage@adebayosegun.com>",
   "license": "MIT",
   "scripts": {
-      "build:lostpixel-config": "tsup lostpixel.config.ts --format=cjs --dts false --out-dir .",
-    "build-storybook": "storybook build",
+    "build-storybook": "storybook build --output-dir=storybook-static",
     "lost-pixel":"lost-pixel",
     "prepare": "husky install",
     "local:sync": "tsx scripts/symlink.ts",
