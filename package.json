@@ -9,8 +9,9 @@
   "author": "Segun Adebayo <sage@adebayosegun.com>",
   "license": "MIT",
   "scripts": {
+    "build:lostpixel-config": "esbuild lostpixel.config.ts --outfile=lostpixel.config.js --platform=node --format=cjs",
     "build-storybook": "storybook build --output-dir=storybook-static",
-    "lost-pixel":"lost-pixel",
+    "lost-pixel": "lost-pixel",
     "prepare": "husky install",
     "local:sync": "tsx scripts/symlink.ts",
     "local:revert": "tsx scripts/symlink.ts --revert",
@@ -125,6 +126,7 @@
     "node": ">=20.x"
   },
   "devDependencies": {
+    "esbuild": "^0.25.4",
     "lost-pixel": "^3.22.0"
   }
 }
