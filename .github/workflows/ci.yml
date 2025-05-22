@@ -19,7 +19,8 @@ jobs:
       - name: Build Storybook
         run: pnpm build-storybook
 
-      # - name: Build Lost Pixel config
-      #   run: pnpm build:lostpixel-config
+      - name: Build Lost Pixel config
+        run: pnpm build:lostpixel-config
+
       - name: Lost Pixel
         uses: lost-pixel/lost-pixel@v3.4.0
