@@ -1,12 +1,12 @@
-import { CustomProjectConfig } from "lost-pixel"
-
-export const config: CustomProjectConfig = {
+export default {
   storybookShots: {
     storybookUrl: "./storybook-static",
   },
   // OSS mode
+  imagePathBaseline: "./lost-pixel/baseline-images",
+  imagePathCurrent: "./lost-pixel/current-images",
+  imagePathDifference: "./lost-pixel/difference-images",
   generateOnly: true,
-  failOnDifference: true,
 
   // Lost Pixel Platform (to use in Platform mode, comment out the OSS mode and uncomment this part )
   // lostPixelProjectId: "xxxx",
