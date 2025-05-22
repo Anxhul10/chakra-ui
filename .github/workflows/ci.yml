@@ -21,10 +21,13 @@ jobs:
 
       - name: Build Lost Pixel config
         run: pnpm build:lostpixel-config
-      
+
+      - name: Remove TS config so JS is picked
+        run: rm lostpixel.config.ts
+        
       - name: show the directory
         run: ls
-        
+
       - name: Lost Pixel
         uses: lost-pixel/lost-pixel@v3.4.0
         with:
